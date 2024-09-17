@@ -5,8 +5,8 @@ my_dict['dict'] = {'city': 'London', 'club': "Tottenham", 'year_of_origin': 1882
                    'stadium': 'Tottenham Hotspur Stadium', 'nick_name': "The lilywhites"}
 my_dict['set'] = {10, 20, 30, 40, 100}
 last_element_of_the_tuple = my_dict['tuple'][-1]
-print('Last element of the tupple key of the dictionary: ' +
-      last_element_of_the_tuple)
+print('Last element of the tupple key of the dictionary: '
+      + last_element_of_the_tuple)
 my_dict['list'].append('gomel')
 my_dict['list'].pop(1)
 my_dict['dict'][('i am a tuple',)] = 'some value'
